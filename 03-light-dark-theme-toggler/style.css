@@ -1,0 +1,45 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            text-align: center;
+        }
+        button{
+            margin: 2rem;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+             background-color: #a7a3a3;
+        }
+
+        .dark{
+            color: silver;
+            background-color: #313030;
+        }
+
+        .dark button{
+            background-color: #1c1919;
+            color: silver;
+        }
+
+        .light{
+            color: black;
+            background-color: #ffffff;
+        }
+
+        .light button{
+            background-color: #a7a3a3;
+            color: #000;
+        }
